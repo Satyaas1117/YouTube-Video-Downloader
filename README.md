@@ -2,7 +2,7 @@
 
 A simple and user-friendly Python application that lets you download YouTube videos with a graphical interface. Just paste the video URL, select your preferred resolution, and download\!
 
------
+
 
 ## ✨ Features
 
@@ -11,7 +11,7 @@ A simple and user-friendly Python application that lets you download YouTube vid
   - **Progress Bar:** A progress bar indicates when the download is in progress.
   - **Download Status:** Get a notification when your download is complete or if an error occurs.
 
------
+
 
 ## 💻 Requirements
 
@@ -27,7 +27,7 @@ You can install `pytube` by running this command in your terminal:
 pip install pytube
 ```
 
------
+
 
 ## 🚀 How to Run
 
@@ -43,7 +43,7 @@ pip install pytube
 
     (Replace `your_script_name.py` with the actual name of your file, e.g., `youtube_downloader.py`).
 
------
+
 
 ## 🔧 How It Works
 
