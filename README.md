@@ -1,50 +1,56 @@
-🎥 YouTube Downloader GUI
+# 🎥 YouTube Downloader GUI
 
-A simple and user-friendly Python application that lets you download YouTube videos with a graphical interface. Just paste the video URL, select your preferred resolution, and download!
-***
-✨ Features
+A simple and user-friendly Python application that lets you download YouTube videos with a graphical interface. Just paste the video URL, select your preferred resolution, and download\!
 
-Easy to Use: A straightforward GUI makes it simple to download videos.
+-----
 
-Resolution Selection: Choose from a list of available resolutions (720p, 480p, 360p, 240p).
+## ✨ Features
 
-Progress Bar: A progress bar indicates when the download is in progress.
+  - **Easy to Use:** A straightforward GUI makes it simple to download videos.
+  - **Resolution Selection:** Choose from a list of available resolutions (720p, 480p, 360p, 240p).
+  - **Progress Bar:** A progress bar indicates when the download is in progress.
+  - **Download Status:** Get a notification when your download is complete or if an error occurs.
 
-Download Status: Get a notification when your download is complete or if an error occurs.
-***
+-----
 
-💻 Requirements
+## 💻 Requirements
 
-1. To run this application, you need to have Python installed on your system. You'll also need the following libraries, which you can install using pip:
+To run this application, you need to have Python installed on your system. You'll also need the following libraries, which you can install using pip:
 
-2. pytube: For downloading YouTube videos.
+  - `pytube`: For downloading YouTube videos.
+  - `tkinter`: Python's standard GUI library (usually included with Python).
+  - `ttk`: Themed Tkinter, for better styling.
 
-3. tkinter: Python's standard GUI library (usually included with Python).
+You can install `pytube` by running this command in your terminal:
 
-4. ttk: Themed Tkinter, for better styling.
-
-5. You can install pytube by running this command in your terminal:
-
-Bash
-
+```bash
 pip install pytube
-***
-🚀 How to Run
+```
 
-Clone the repository or download the project files.
+-----
 
-Navigate to the project directory in your terminal.
+## 🚀 How to Run
 
-Run the Python script:
+1.  **Clone the repository** or download the project files.
 
-Bash
+2.  **Navigate** to the project directory in your terminal.
 
-python your_script_name.py
-(Replace your_script_name.py with the actual name of your file, e.g., youtube_downloader.py).
-***
-🔧 How It Works
+3.  **Run the Python script:**
 
-This application is built with the Tkinter library for its graphical user interface. The backend uses the Pytube library to handle the video downloading process. When you click the "Download" button, the program gets the URL and desired resolution, and a new thread is started to prevent the GUI from freezing. This thread then uses Pytube to find the video stream with the specified resolution and downloads it to your user's home directory.
-***
-✍️ Contribution
-If you have any suggestions or find a bug, feel free to open an issue or submit a pull request. Your contributions are welcome!
+    ```bash
+    python your_script_name.py
+    ```
+
+    (Replace `your_script_name.py` with the actual name of your file, e.g., `youtube_downloader.py`).
+
+-----
+
+## 🔧 How It Works
+
+This application is built with the **Tkinter** library for its graphical user interface. The backend uses the **Pytube** library to handle the video downloading process. When you click the "Download" button, the program gets the URL and desired resolution, and a new **thread** is started to prevent the GUI from freezing. This thread then uses **Pytube** to find the video stream with the specified resolution and downloads it to your user's home directory.
+
+-----
+
+## ✍️ Contribution
+
+If you have any suggestions or find a bug, feel free to open an issue or submit a pull request. Your contributions are welcome\!
