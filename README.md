@@ -49,7 +49,7 @@ pip install pytube
 
 This application is built with the **Tkinter** library for its graphical user interface. The backend uses the **Pytube** library to handle the video downloading process. When you click the "Download" button, the program gets the URL and desired resolution, and a new **thread** is started to prevent the GUI from freezing. This thread then uses **Pytube** to find the video stream with the specified resolution and downloads it to your user's home directory.
 
------
+
 
 ## ✍️ Contribution
 
